@@ -1,0 +1,7 @@
+SELECT a.STATION_ID FROM 
+STATION_END_B b
+INNER JOIN
+STATION_END_A a
+ON
+b.station_id = a.station_id
+ORDER BY 1
